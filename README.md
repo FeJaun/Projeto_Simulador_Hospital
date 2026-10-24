@@ -5,4 +5,6 @@
 </div>
 <br>
 
-![Diagrama do Banco de dados](docs/Banco-de-dados-DrawDB.png)
+<div align="center">
+  <img src="docs/Banco-de-dados-DrawDB.png" alt="Diagrama do Banco de dados" />
+</div>
