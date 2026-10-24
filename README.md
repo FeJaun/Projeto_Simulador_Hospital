@@ -4,4 +4,5 @@
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </div>
 <br>
+
 ![Diagrama do Banco de dados](docs/Banco-de-dados-DrawDB.png)
