@@ -26,5 +26,53 @@ public class Paciente {
     @Column(name = "contato_emergencia_telefone")
     private String contatoEmergenciaTelefone;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Pessoa getPessoa() {
+        return pessoa;
+    }
+
+    public void setPessoa(Pessoa pessoa) {
+        this.pessoa = pessoa;
+    }
+
+    public String getTipoSanguineo() {
+        return tipoSanguineo;
+    }
+
+    public void setTipoSanguineo(String tipoSanguineo) {
+        this.tipoSanguineo = tipoSanguineo;
+    }
+
+    public String getAlergias() {
+        return alergias;
+    }
+
+    public void setAlergias(String alergias) {
+        this.alergias = alergias;
+    }
+
+    public String getContatoEmergenciaNome() {
+        return contatoEmergenciaNome;
+    }
+
+    public void setContatoEmergenciaNome(String contatoEmergenciaNome) {
+        this.contatoEmergenciaNome = contatoEmergenciaNome;
+    }
+
+    public String getContatoEmergenciaTelefone() {
+        return contatoEmergenciaTelefone;
+    }
+
+    public void setContatoEmergenciaTelefone(String contatoEmergenciaTelefone) {
+        this.contatoEmergenciaTelefone = contatoEmergenciaTelefone;
+    }
+
     // Não se esqueça de gerar os Getters e Setters
 }
